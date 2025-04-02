@@ -1,0 +1,24 @@
+title: JupyterHub Installation
+description: A guide to installing JupyterHub
+baseurl: "/jupyterhub-installation.github.io" # the subpath of your site
+url: "https://philip-r-haggard.github.io" # the base hostname
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude these files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
